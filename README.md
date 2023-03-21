@@ -3,6 +3,7 @@
 Cypress framework is a JavaScript-based end-to-end testing framework built on Mocha – a feature-rich JavaScript test framework running on and in the browser, making asynchronous testing simple and convenient.
 
 #Features of Cypress Framework
+
 Two primary features explicitly developed for Cypress web testing are:
 •	Automatic waiting – Cypress waits for the elements to become visible, the animation to complete, DOM to load, the XHR and AJAX calls to be finished, etc. Hence, there is no need for implicit and explicit waits to be defined.
 •	Real-Time Reloads – Cypress is intelligent enough to know that after saving a test file (xyz_cy.js file), the tester will rerun it. So, it automatically triggers the run next to the browser as soon as the tester saves their file. Hence, there is no need to trigger the run manually.
@@ -13,6 +14,7 @@ Two primary features explicitly developed for Cypress web testing are:
 •	Cypress browser support includes Google Chrome, Mozilla Firefox, and Microsoft Edge.
 
 #Advantages of Cypress Web Testing
+
 •	Quick, easy setup and execution of tests.
 •	Writing time for tests is lower compared to other frameworks.
 •	It can be integrated with any CI tool equipped for headless execution with command-line options.
@@ -20,6 +22,7 @@ Two primary features explicitly developed for Cypress web testing are:
 •	Automatically reloads Test Runner once the changes have been made to the test.
 
 #Components of Cypress Framework
+
 The following components play a part while executing particular test cases:
 •	Spec File: Contains the It(){} blocks where test execution begins. Every spec file has one describe {} block and in which different it{} blocks are contained.
 •	Page Object File: Lists the methods that contain tests’ business logic. These methods comprise the actual Cypress commands to interact with the real application.
@@ -27,6 +30,7 @@ The following components play a part while executing particular test cases:
 •	Constants File: Used to hold any constants used throughout test files.
 
 #How to perform automation with Cypress. In order to start, users will need the following prerequisites:
+
 1)	Download and Install NodeJS 
 2)	Download and install Visual Studio Code
 
