@@ -1,8 +1,8 @@
-**# OpenCV | Web Automation Framework**
+_**# OpenCV | Web Automation Framework**_
 
 Cypress framework is a JavaScript-based end-to-end testing framework built on Mocha – a feature-rich JavaScript test framework running on and in the browser, making asynchronous testing simple and convenient.
 
-**#Features of Cypress Framework**
+_**#Features of Cypress Framework**_
 
 Two primary features explicitly developed for Cypress web testing are:
 
@@ -19,7 +19,7 @@ Two primary features explicitly developed for Cypress web testing are:
 
 •	Cypress browser support includes Google Chrome, Mozilla Firefox, and Microsoft Edge.
 
-**#Advantages of Cypress Web Testing**
+_**#Advantages of Cypress Web Testing**_
 
 •	Quick, easy setup and execution of tests.
 
@@ -31,7 +31,7 @@ Two primary features explicitly developed for Cypress web testing are:
 
 •	Automatically reloads Test Runner once the changes have been made to the test.
 
-**#Components of Cypress Framework**
+_**#Components of Cypress Framework**_
 
 The following components play a part while executing particular test cases:
 
@@ -71,7 +71,7 @@ npx cypress open
 
 Upon successful completion of this command, the Cypress window launches.
 
-#How to run Cypress tests using the Cypress command line
+_**#How to run Cypress tests using the Cypress command line**__
 
 npx cypress run
 
