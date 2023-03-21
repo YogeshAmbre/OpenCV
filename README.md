@@ -46,26 +46,26 @@ The following components play a part while executing particular test cases:
 _**#How to perform automation with Cypress. In order to start, users will need the following prerequisites:**_
 
 1)	Download and Install NodeJS 
-2)	
-3)	Download and install Visual Studio Code
 
-Step 1: Create an Empty Project Folder
+2)	Download and install Visual Studio Code
 
-Step 2: Open the folder in Visual Studio Code
+**Step 1:** Create an Empty Project Folder
 
-Step 3: Create package.json
+**Step 2:** Open the folder in Visual Studio Code
+
+**Step 3:** Create package.json
 
  In order to create the package.json, open Terminal in Visual Studio Code Menu and type the command below:
  
 npm init
 
-Step 4: Install Cypress
+**Step 4:** Install Cypress
 
 In the root Project Folder > Terminal > type 
 
 npm install cypress --save-dev
 
-Step 5: Open Cypress Window
+**Step 5:** Open Cypress Window
 
 npx cypress open
 
