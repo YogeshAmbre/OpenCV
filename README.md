@@ -24,26 +24,41 @@ Two primary features explicitly developed for Cypress web testing are:
 #Components of Cypress Framework
 
 The following components play a part while executing particular test cases:
+
 •	Spec File: Contains the It(){} blocks where test execution begins. Every spec file has one describe {} block and in which different it{} blocks are contained.
+
 •	Page Object File: Lists the methods that contain tests’ business logic. These methods comprise the actual Cypress commands to interact with the real application.
+
 •	Page Selector File: Contains the actual locators of UI elements in a real application.
+
 •	Constants File: Used to hold any constants used throughout test files.
 
 #How to perform automation with Cypress. In order to start, users will need the following prerequisites:
 
 1)	Download and Install NodeJS 
-2)	Download and install Visual Studio Code
+2)	
+3)	Download and install Visual Studio Code
 
 Step 1: Create an Empty Project Folder
+
 Step 2: Open the folder in Visual Studio Code
+
 Step 3: Create package.json
+
  In order to create the package.json, open Terminal in Visual Studio Code Menu and type the command below:
+ 
 npm init
+
 Step 4: Install Cypress
+
 In the root Project Folder > Terminal > type 
+
 npm install cypress --save-dev
+
 Step 5: Open Cypress Window
+
 npx cypress open
+
 Upon successful completion of this command, the Cypress window launches.
 
 #How to run Cypress tests using the Cypress command line
