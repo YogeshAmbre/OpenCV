@@ -1,27 +1,37 @@
-# OpenCV | Web Automation Framework
+**# OpenCV | Web Automation Framework**
 
 Cypress framework is a JavaScript-based end-to-end testing framework built on Mocha – a feature-rich JavaScript test framework running on and in the browser, making asynchronous testing simple and convenient.
 
-#Features of Cypress Framework
+**#Features of Cypress Framework**
 
 Two primary features explicitly developed for Cypress web testing are:
+
 •	Automatic waiting – Cypress waits for the elements to become visible, the animation to complete, DOM to load, the XHR and AJAX calls to be finished, etc. Hence, there is no need for implicit and explicit waits to be defined.
+
 •	Real-Time Reloads – Cypress is intelligent enough to know that after saving a test file (xyz_cy.js file), the tester will rerun it. So, it automatically triggers the run next to the browser as soon as the tester saves their file. Hence, there is no need to trigger the run manually.
+
 •	It waits to execute the test command automatically and enacts assertions before executing the following commands to be run.
 •	It captures screenshots during test case execution to help with debugging.
+
 •	It debugs test execution more efficiently since it provides the interactive test execution with Test Runner and logs.
+
 •	Because of architectural design differences from other test frameworks, it provides users with faster and more reliable test execution.
+
 •	Cypress browser support includes Google Chrome, Mozilla Firefox, and Microsoft Edge.
 
-#Advantages of Cypress Web Testing
+**#Advantages of Cypress Web Testing**
 
 •	Quick, easy setup and execution of tests.
+
 •	Writing time for tests is lower compared to other frameworks.
+
 •	It can be integrated with any CI tool equipped for headless execution with command-line options.
+
 •	It captures screenshots of test execution automatically in case of test failure for effective debugging.
+
 •	Automatically reloads Test Runner once the changes have been made to the test.
 
-#Components of Cypress Framework
+**#Components of Cypress Framework**
 
 The following components play a part while executing particular test cases:
 
@@ -33,7 +43,7 @@ The following components play a part while executing particular test cases:
 
 •	Constants File: Used to hold any constants used throughout test files.
 
-#How to perform automation with Cypress. In order to start, users will need the following prerequisites:
+_**#How to perform automation with Cypress. In order to start, users will need the following prerequisites:**_
 
 1)	Download and Install NodeJS 
 2)	
