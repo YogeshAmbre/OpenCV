@@ -6,9 +6,9 @@ _**#Features of Cypress Framework**_
 
 Two primary features explicitly developed for Cypress web testing are:
 
-•	Automatic waiting – Cypress waits for the elements to become visible, the animation to complete, DOM to load, the XHR and AJAX calls to be finished, etc. Hence, there is no need for implicit and explicit waits to be defined.
+•	**Automatic waiting** – Cypress waits for the elements to become visible, the animation to complete, DOM to load, the XHR and AJAX calls to be finished, etc. Hence, there is no need for implicit and explicit waits to be defined.
 
-•	Real-Time Reloads – Cypress is intelligent enough to know that after saving a test file (xyz_cy.js file), the tester will rerun it. So, it automatically triggers the run next to the browser as soon as the tester saves their file. Hence, there is no need to trigger the run manually.
+•	**Real-Time Reloads** – Cypress is intelligent enough to know that after saving a test file (xyz_cy.js file), the tester will rerun it. So, it automatically triggers the run next to the browser as soon as the tester saves their file. Hence, there is no need to trigger the run manually.
 
 •	It waits to execute the test command automatically and enacts assertions before executing the following commands to be run.
 •	It captures screenshots during test case execution to help with debugging.
